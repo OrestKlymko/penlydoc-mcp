@@ -1,0 +1,17 @@
+{
+  "name": "penlydoc-mcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for PenlyDoc e-signatures: send documents and templates for signature, see who signed, download sealed PDFs.",
+  "type": "module",
+  "bin": { "penlydoc-mcp": "index.js" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "engines": { "node": ">=18.17" },
+  "keywords": ["mcp", "model-context-protocol", "e-signature", "electronic-signature", "pdf", "penlydoc"],
+  "homepage": "https://penlydoc.com/docs",
+  "repository": { "type": "git", "url": "git+https://github.com/OrestKlymko/penlydoc-mcp.git" },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.1",
+    "zod": "3.25.76"
+  }
+}

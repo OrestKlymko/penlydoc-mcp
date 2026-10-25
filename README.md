@@ -17,14 +17,14 @@ PenlyDoc REST API with your organisation's API key. Works with any MCP client.
   "mcpServers": {
     "penlydoc": {
       "command": "npx",
-      "args": ["-y", "github:OrestKlymko/penlydoc-mcp"],
+      "args": ["-y", "penlydoc-mcp"],
       "env": { "PENLY_API_KEY": "sk_…" }
     }
   }
 }
 ```
 
-Node.js 18.17 or newer is needed. (An npm release is coming; `github:` works today.) `PENLY_URL` points the server at another PenlyDoc instance (default `https://penlydoc.com`).
+Node.js 18.17 or newer is needed. `PENLY_URL` points the server at another PenlyDoc instance (default `https://penlydoc.com`).
 
 Treat the API key like a password: it can send documents in your organisation's name. Give the assistant a key of its own,
 so you can revoke it in the console without touching your other integrations.

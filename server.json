@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.OrestKlymko/penlydoc-mcp",
+  "title": "PenlyDoc",
+  "description": "Send documents for e-signature, track who signed and save sealed PDFs with PenlyDoc.",
+  "websiteUrl": "https://penlydoc.com/?utm_source=mcp-registry&utm_medium=listing",
+  "repository": {
+    "url": "https://github.com/OrestKlymko/penlydoc-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "penlydoc-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "PENLY_API_KEY",
+          "description": "PenlyDoc API key (console → Developers)",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "PENLY_URL",
+          "description": "PenlyDoc instance URL",
+          "isRequired": false,
+          "default": "https://penlydoc.com",
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

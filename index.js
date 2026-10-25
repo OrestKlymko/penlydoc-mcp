@@ -9,7 +9,7 @@ import { z } from 'zod';
 
 const BASE = (process.env.PENLY_URL || 'https://penlydoc.com').replace(/\/+$/, '');
 const KEY = process.env.PENLY_API_KEY || '';
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 
 class PenlyError extends Error {}
 

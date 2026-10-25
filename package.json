@@ -1,6 +1,7 @@
 {
   "name": "penlydoc-mcp",
-  "version": "0.1.0",
+  "mcpName": "io.github.OrestKlymko/penlydoc-mcp",
+  "version": "0.1.1",
   "description": "Model Context Protocol server for PenlyDoc e-signatures: send documents and templates for signature, see who signed, download sealed PDFs.",
   "type": "module",
   "bin": { "penlydoc-mcp": "index.js" },

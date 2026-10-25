@@ -9,7 +9,7 @@ PenlyDoc REST API with your organisation's API key. Works with any MCP client.
 
 ## Setup
 
-1. Create an organisation at [penlydoc.com](https://penlydoc.com) (free) and copy an API key from **Console → Developers**.
+1. Create an organisation at [penlydoc.com](https://penlydoc.com/console#/signup?src=utm_source%3Dgithub%20utm_campaign%3Dmcp) (free) and copy an API key from **Console → Developers**.
 2. Add the server to your MCP client's configuration:
 
 ```json
